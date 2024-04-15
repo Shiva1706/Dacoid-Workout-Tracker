@@ -1,0 +1,29 @@
+.date-picker-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.date-picker {
+  display: inline-flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.day {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #3490dc;
+  color: white;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-top: 5px;
+}
